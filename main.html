@@ -9,16 +9,16 @@
 
 <body>
 
-	<form method="get">
+	<form method="post">
 		<h1>Form</h1>
 		<label for="name">Name</label><input type="text" id="name" required>
 		<br>
 		<label for="email">Email</label><input type="email" id="email" required>
 		<br>
-		<label for="gender">Gender</label><input type="radio" name="gender">Male<input type="radio" name="gender" required>Female
+		<label for="gender">Gender</label><input type="radio" name="gender" required>Male<input type="radio" name="gender" required>Female
 		<br>
 		<label for="laptop">Laptop Brands</label>
-		<select id="laptop">
+		<select id="laptop" required>
 		<option value="Apple">Apple</option>
 		<option value="Asus">Asus</option>
 		<option value="HP">HP</option>
@@ -31,6 +31,9 @@
 		<label for="password">Password</label><input type="password" id="password" required>
 		<br>
 		<button type="submit">Submit</button>
+		<br>
+		<label for="portfolio">Portfolio url:</label>
+		<input type="url" id="portfolio">
 		<br>
 	</form>
     <script type="text/javascript" src="./script.js">
