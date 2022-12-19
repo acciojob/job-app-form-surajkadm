@@ -1,2 +1,11 @@
-
+form{
+    position: absolute;
+    padding: 100px;
+    width: 30em;
+    background-color: beige;
+    border: 2px solid black;
+}
+label, input{
+    margin: 25px;
+}
 /* Your CSS Code here. */
